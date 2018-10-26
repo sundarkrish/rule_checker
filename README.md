@@ -25,7 +25,14 @@ All files and folders are in the project directory.The packages are installed in
     - Database name: rcDB
     - schema name: rcschemas
   - schema.js : A schema to represent the collection rules in mongoDB.
+  
+  
+# Instructions
 
+### Note: 
+ - MongoDB and Node should be installed and configured priorly.
+ - Use Robo 3T for visualization purpose (optional)
+ - Copy and paste app.js(main file), populate_db,  .eslintrc.js &  models folder in the project directory(ignore the rest)
 
  ```sh
 $ npm init (In the project directory)
@@ -35,9 +42,7 @@ $ npm install readdirp  --save
 $ node populate_db.js (should be run only once)
 $ node app.js
  ```
-### Note: 
- - MongoDB should be installed and configured.
- - Use Robo 3T for visualization purpose (optional)
+
  
 (See the console or terminal window for the results)
 
