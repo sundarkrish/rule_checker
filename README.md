@@ -44,7 +44,7 @@ $ node app.js
  ```
 
  
-(See the console or terminal window for the results)
+(Now the dir strcuture resembles the above one.See the console or terminal window for the results)
 
 The output for the above .eslintrc.js configuration is as follows: 
 ```
