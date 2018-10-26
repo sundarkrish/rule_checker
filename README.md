@@ -71,5 +71,7 @@ The output for the above .eslintrc.js configuration is as follows:
 { missing: 'computed-property-spacing' }
 { missing: 'comma-style' }
 { missing: 'consistent-return' }
+
+......
 ```
 
