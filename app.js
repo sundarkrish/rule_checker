@@ -3,7 +3,7 @@ const RCSchema =require("./models/schema");
 const config = require("./.eslintrc.js"); 
 let enabledRules = [];
 
-
+// add new rulePack name and map it to their names as shown in .js file 
 let rulePackDirectory = {
     "eslint:recommended": "eslint-recommended", 
 };
@@ -37,7 +37,7 @@ RCSchema.update({}, {enabled: false}, {multi: true}).then(function(data){
 }).catch(display); 
 
 
-// please put extends value in array format eg. "extends": []
+// please put extends value in array format eg. "extends": ["eslint:recommended"]
 let configRules = config.extends;
 configRules.map(function(name){
     let rulePack = require("./node_modules/eslint/conf/"+rulePackDirectory[name]);
@@ -49,6 +49,7 @@ configRules.map(function(name){
     });
 });
 
+// please put rules value in shown format  "linebreak-style": ["error", "unix"],
 configRules = Object.keys(config.rules);
 configRules.map(function(name){
     
