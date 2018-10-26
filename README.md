@@ -35,6 +35,10 @@ $ npm install readdirp  --save
 $ node populate_db.js (should be run only once)
 $ node app.js
  ```
+### Note: 
+ - MongoDB should be installed and configured.
+ - Use Robo 3T for visualization purpose (optional)
+ 
 (See the console or terminal window for the results)
 
 The output for the above .eslintrc.js configuration is as follows: 
